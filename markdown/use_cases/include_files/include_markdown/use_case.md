@@ -1,5 +1,5 @@
-Prev: [Nest Inclusions](include_files/nest_inclusions/use_case.md)
-Next: [Include Code Block](include_files/include_code_block/use_case.md)
+Prev: [Nest Inclusions](../nest_inclusions/use_case.md)
+Next: [Include Code Block](../include_code_block/use_case.md)
 
 ### Include Markdown
 
@@ -108,5 +108,5 @@ This is an unordered list:
 
 ---
 
-Prev: [Nest Inclusions](include_files/nest_inclusions/use_case.md)
-Next: [Include Code Block](include_files/include_code_block/use_case.md)
+Prev: [Nest Inclusions](../nest_inclusions/use_case.md)
+Next: [Include Code Block](../include_code_block/use_case.md)

@@ -1,3 +1,4 @@
+require 'abbrev'
 require 'pathname'
 require 'uri'
 
@@ -204,6 +205,11 @@ EOT
       markdown_lines.delete_at(page_toc_index)
       markdown_lines.insert(page_toc_index, *toc_lines)
     end
+    def common_path(path_0, path_1)
+      dirs = [path_0, path_1]
+      common_prefix = dirs.abbrev.keys.min_by {|key| key.length}.chop
+      common_prefix.sub(%r{/[^/]*$}, '')
+    end
     if page_nav_regexp
       page_infos = []
       markdown_lines.each do |markdown_line|
@@ -244,13 +250,18 @@ EOT
           page_info.next_title = next_info.title
         end
         nav_lines = []
+        path = page_info.path
         if page_info.prev_path
-          prev_link = "[#{page_info.prev_title}](#{page_info.prev_path})"
+          prev_path = page_info.prev_path
+          prev_relative_path = prev_path.sub(common_path(path, prev_path), '..')
+          prev_link = "[#{page_info.prev_title}](#{prev_relative_path})"
           prev_line = "Prev: #{prev_link}\n"
           nav_lines.push(prev_line)
         end
         if page_info.next_path
-          next_link = "[#{page_info.next_title}](#{page_info.next_path})"
+          next_path = page_info.next_path
+          next_relative_path = next_path.sub(common_path(path, next_path), '..')
+          next_link = "[#{page_info.next_title}](#{next_relative_path})"
           next_line = "Next: #{next_link}\n"
           nav_lines.push(next_line)
         end

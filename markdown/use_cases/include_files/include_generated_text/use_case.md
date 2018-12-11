@@ -1,5 +1,5 @@
-Prev: [Include Text As Pre](include_files/include_text_as_pre/use_case.md)
-Next: [Include with Added Comments](include_files/include_with_added_comments/use_case.md)
+Prev: [Include Text As Pre](../include_text_as_pre/use_case.md)
+Next: [Include with Added Comments](../include_with_added_comments/use_case.md)
 
 ### Include Generated Text
 
@@ -20,5 +20,5 @@ An especially handy use of file inclusion is seen in including example code and 
 
 Running the example each time the markdown is built keeps the example code "green," because it confirms that the code still works.
 
-Prev: [Include Text As Pre](include_files/include_text_as_pre/use_case.md)
-Next: [Include with Added Comments](include_files/include_with_added_comments/use_case.md)
+Prev: [Include Text As Pre](../include_text_as_pre/use_case.md)
+Next: [Include with Added Comments](../include_with_added_comments/use_case.md)

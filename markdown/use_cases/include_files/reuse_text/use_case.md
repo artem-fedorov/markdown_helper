@@ -1,4 +1,4 @@
-Next: [Nest Inclusions](include_files/nest_inclusions/use_case.md)
+Next: [Nest Inclusions](../nest_inclusions/use_case.md)
 
 ### Reuse Text
 
@@ -70,4 +70,4 @@ Text in includee file.
 
 ```
 
-Next: [Nest Inclusions](include_files/nest_inclusions/use_case.md)
+Next: [Nest Inclusions](../nest_inclusions/use_case.md)

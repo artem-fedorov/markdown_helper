@@ -1,4 +1,4 @@
-Prev: [Diagnose Missing Includee](include_files/diagnose_missing_includee/use_case.md)
+Prev: [Diagnose Missing Includee](../diagnose_missing_includee/use_case.md)
 
 ### Diagnose Circular Includes
 
@@ -99,4 +99,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/markdown_helper-2.1.0/bin/_include: Inclu
         File path: markdown/use_cases/include_files/diagnose_circular_includes/includer_0.md
 ```
 
-Prev: [Diagnose Missing Includee](include_files/diagnose_missing_includee/use_case.md)
+Prev: [Diagnose Missing Includee](../diagnose_missing_includee/use_case.md)

@@ -1,5 +1,5 @@
-Prev: [Include Code Block](include_files/include_code_block/use_case.md)
-Next: [Include Page TOC](include_files/include_page_toc/use_case.md)
+Prev: [Include Code Block](../include_code_block/use_case.md)
+Next: [Include Page TOC](../include_page_toc/use_case.md)
 
 ### Include Highlighted Code
 
@@ -112,5 +112,5 @@ end
 
 ---
 
-Prev: [Include Code Block](include_files/include_code_block/use_case.md)
-Next: [Include Page TOC](include_files/include_page_toc/use_case.md)
+Prev: [Include Code Block](../include_code_block/use_case.md)
+Next: [Include Page TOC](../include_page_toc/use_case.md)

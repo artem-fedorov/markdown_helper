@@ -1,5 +1,5 @@
-Prev: [Include with Added Comments](include_files/include_with_added_comments/use_case.md)
-Next: [Diagnose Circular Includes](include_files/diagnose_circular_includes/use_case.md)
+Prev: [Include with Added Comments](../include_with_added_comments/use_case.md)
+Next: [Diagnose Circular Includes](../diagnose_circular_includes/use_case.md)
 
 ### Diagnose Missing Includee
 
@@ -102,5 +102,5 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/markdown_helper-2.1.0/bin/_include: Could
         File path: markdown/use_cases/include_files/diagnose_missing_includee/includer_0.md
 ```
 
-Prev: [Include with Added Comments](include_files/include_with_added_comments/use_case.md)
-Next: [Diagnose Circular Includes](include_files/diagnose_circular_includes/use_case.md)
+Prev: [Include with Added Comments](../include_with_added_comments/use_case.md)
+Next: [Diagnose Circular Includes](../diagnose_circular_includes/use_case.md)
