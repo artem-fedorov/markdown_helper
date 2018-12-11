@@ -1,7 +1,5 @@
-Prev: [Include Highlighted Code
-](include_files/include_highlighted_code/use_case.md
-Next: [Include Text As Comment
-](include_files/include_text_as_comment/use_case.md)
+Prev: [Include Highlighted Code](include_files/include_highlighted_code/use_case.md)
+Next: [Include Text As Comment](include_files/include_text_as_comment/use_case.md)
 
 ### Include Page TOC
 
@@ -216,7 +214,5 @@ And here's the finished markdown, as rendered on this page:
 
 ---
 
-Prev: [Include Highlighted Code
-](include_files/include_highlighted_code/use_case.md
-Next: [Include Text As Comment
-](include_files/include_text_as_comment/use_case.md)
+Prev: [Include Highlighted Code](include_files/include_highlighted_code/use_case.md)
+Next: [Include Text As Comment](include_files/include_text_as_comment/use_case.md)

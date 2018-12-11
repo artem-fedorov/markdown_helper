@@ -1,7 +1,5 @@
-Prev: [Include Markdown
-](include_files/include_markdown/use_case.md
-Next: [Include Highlighted Code
-](include_files/include_highlighted_code/use_case.md)
+Prev: [Include Markdown](include_files/include_markdown/use_case.md)
+Next: [Include Highlighted Code](include_files/include_highlighted_code/use_case.md)
 
 ### Include Code Block
 
@@ -112,7 +110,5 @@ end
 
 ---
 
-Prev: [Include Markdown
-](include_files/include_markdown/use_case.md
-Next: [Include Highlighted Code
-](include_files/include_highlighted_code/use_case.md)
+Prev: [Include Markdown](include_files/include_markdown/use_case.md)
+Next: [Include Highlighted Code](include_files/include_highlighted_code/use_case.md)

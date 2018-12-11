@@ -220,7 +220,7 @@ EOT
           File.readlines(path).each do |line|
             if line.match(/^#+ /)
               title = line.split(/ /)[1..-1].join(' ')
-              page_info.title = title
+              page_info.title = title.chomp
               break
             end
           end
@@ -245,7 +245,7 @@ EOT
         end
         nav_lines = []
         if page_info.prev_path
-          prev_link = "[#{page_info.prev_title}](#{page_info.prev_path}"
+          prev_link = "[#{page_info.prev_title}](#{page_info.prev_path})"
           prev_line = "Prev: #{prev_link}\n"
           nav_lines.push(prev_line)
         end

@@ -1,7 +1,5 @@
-Prev: [Reuse Text
-](include_files/reuse_text/use_case.md
-Next: [Include Markdown
-](include_files/include_markdown/use_case.md)
+Prev: [Reuse Text](include_files/reuse_text/use_case.md)
+Next: [Include Markdown](include_files/include_markdown/use_case.md)
 
 ### Nest Inclusions
 
@@ -78,7 +76,5 @@ Text for inclusion, and a nested inclusion.
 Text for nested inclusion.
 ```
 
-Prev: [Reuse Text
-](include_files/reuse_text/use_case.md
-Next: [Include Markdown
-](include_files/include_markdown/use_case.md)
+Prev: [Reuse Text](include_files/reuse_text/use_case.md)
+Next: [Include Markdown](include_files/include_markdown/use_case.md)

@@ -1,7 +1,5 @@
-Prev: [Include Text As Comment
-](include_files/include_text_as_comment/use_case.md
-Next: [Include Generated Text
-](include_files/include_generated_text/use_case.md)
+Prev: [Include Text As Comment](include_files/include_text_as_comment/use_case.md)
+Next: [Include Generated Text](include_files/include_generated_text/use_case.md)
 
 ### Include Text As Pre
 
@@ -80,7 +78,5 @@ This file uses triple-backtick to format a ```symbol```, which means that it can
 ```
 
 
-Prev: [Include Text As Comment
-](include_files/include_text_as_comment/use_case.md
-Next: [Include Generated Text
-](include_files/include_generated_text/use_case.md)
+Prev: [Include Text As Comment](include_files/include_text_as_comment/use_case.md)
+Next: [Include Generated Text](include_files/include_generated_text/use_case.md)
