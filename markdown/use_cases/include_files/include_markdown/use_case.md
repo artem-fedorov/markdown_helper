@@ -1,3 +1,8 @@
+Prev: [Nest Inclusions
+](include_files/nest_inclusions/use_case.md
+Next: [Include Code Block
+](include_files/include_code_block/use_case.md)
+
 ### Include Markdown
 
 Use file inclusion to include markdown.  The whole page, includer and includee, will be rendered when it's pushed to GitHub.
@@ -104,3 +109,8 @@ This is an unordered list:
 * Three.
 
 ---
+
+Prev: [Nest Inclusions
+](include_files/nest_inclusions/use_case.md
+Next: [Include Code Block
+](include_files/include_code_block/use_case.md)

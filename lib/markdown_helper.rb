@@ -1,4 +1,6 @@
 require 'pathname'
+require 'uri'
+
 require 'markdown_helper/version'
 
 class MarkdownHelper
@@ -13,15 +15,18 @@ class MarkdownHelper
   class MisplacedPageTocError < MarkdownHelperError; end
   class MultiplePageTocError < MarkdownHelperError; end
 
-  INCLUDE_REGEXP = /^@\[([^\[]+)\]\(([^)]+)\)$/
+  INCLUDE_REGEXP = /^@\[([^\[]+)\]\((.*?)\)$/
+  LINK_REGEXP = /\[([^\[]+)\]\(([^)]+)\)$/
 
   attr_accessor :pristine
 
   def initialize(options = {})
+
     # Confirm that we're in a git project.
     # This is necessary so that we can prune file paths in the tests,
     # which otherwise would fail because of differing installation directories.
     # It also allows pruned paths to be used in the inserted comments (when not pristine).
+
     MarkdownHelper.git_clone_dir_path
     default_options = {
         :pristine => false,
@@ -119,6 +124,10 @@ EOT
     end
   end
 
+  class PageInfo
+    attr_accessor :path, :title, :prev_path, :prev_title, :next_path, :next_title
+  end
+
   def _create_page_toc(input_lines, output_lines)
     first_heading_level = nil
     input_lines.each do |input_line|
@@ -135,6 +144,7 @@ EOT
   def include_files(includer_file_path, input_lines, output_lines, inclusions)
     markdown_lines = []
     page_toc_inclusion = nil
+    page_nav_regexp = nil
     input_lines.each_with_index do |input_line, line_index|
       match_data = input_line.match(INCLUDE_REGEXP)
       unless match_data
@@ -176,6 +186,8 @@ EOT
         page_toc_inclusion.page_toc_title = toc_title
         page_toc_inclusion.page_toc_line = input_line
         markdown_lines.push(input_line)
+      when ':page_nav'
+        page_nav_regexp = Regexp.new(match_data[2])
       else
         markdown_lines.push(input_line)
       end
@@ -191,6 +203,62 @@ EOT
       _create_page_toc(lines_to_scan, toc_lines)
       markdown_lines.delete_at(page_toc_index)
       markdown_lines.insert(page_toc_index, *toc_lines)
+    end
+    if page_nav_regexp
+      page_infos = []
+      markdown_lines.each do |markdown_line|
+        next unless markdown_line.match(page_nav_regexp)
+        match_data = markdown_line.match(LINK_REGEXP)
+        unless match_data.nil?
+          page_info = PageInfo.new
+          page_infos.push(page_info)
+          url = match_data[2]
+          uri = URI.parse(url)
+          path = uri.path
+          page_info.path = path
+          next unless path.end_with?('.md')
+          File.readlines(path).each do |line|
+            if line.match(/^#+ /)
+              title = line.split(/ /)[1..-1].join(' ')
+              page_info.title = title
+              break
+            end
+          end
+        end
+      end
+      page_infos.each_with_index do |page_info, i|
+        if i == 0
+          page_info.prev_path = nil
+          page_info.prev_title = nil
+        else
+          prev_info = page_infos[i - 1]
+          page_info.prev_path = prev_info.path
+          page_info.prev_title = prev_info.title
+        end
+        if i == page_infos.size - 1
+          page_info.next_path = nil
+          page_info.next_title = nil
+        else
+          next_info = page_infos[i + 1]
+          page_info.next_path = next_info.path
+          page_info.next_title = next_info.title
+        end
+        nav_lines = []
+        if page_info.prev_path
+          prev_link = "[#{page_info.prev_title}](#{page_info.prev_path}"
+          prev_line = "Prev: #{prev_link}\n"
+          nav_lines.push(prev_line)
+        end
+        if page_info.next_path
+          next_link = "[#{page_info.next_title}](#{page_info.next_path})"
+          next_line = "Next: #{next_link}\n"
+          nav_lines.push(next_line)
+        end
+        lines = File.readlines(page_info.path)
+        lines.unshift(*nav_lines, "\n")
+        lines.push("\n", nav_lines)
+        File.write(page_info.path, lines.join)
+      end
     end
     # Now review the markdown and include everything.
     markdown_lines.each_with_index do |markdown_line, line_index|

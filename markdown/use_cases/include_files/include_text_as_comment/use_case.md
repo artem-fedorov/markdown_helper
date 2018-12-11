@@ -1,3 +1,8 @@
+Prev: [Include Page TOC
+](include_files/include_page_toc/use_case.md
+Next: [Include Text As Pre
+](include_files/include_text_as_pre/use_case.md)
+
 ### Include Text As Comment
 
 Use file inclusion to include text (or even code) as a comment.
@@ -85,3 +90,8 @@ end
 
 ```
 
+
+Prev: [Include Page TOC
+](include_files/include_page_toc/use_case.md
+Next: [Include Text As Pre
+](include_files/include_text_as_pre/use_case.md)

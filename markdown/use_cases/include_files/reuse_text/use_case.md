@@ -1,3 +1,6 @@
+Next: [Nest Inclusions
+](include_files/nest_inclusions/use_case.md)
+
 ### Reuse Text
 
 Use file inclusion to stay DRY (Don't Repeat Yourself).
@@ -67,3 +70,6 @@ Text in includer file.
 Text in includee file.
 
 ```
+
+Next: [Nest Inclusions
+](include_files/nest_inclusions/use_case.md)

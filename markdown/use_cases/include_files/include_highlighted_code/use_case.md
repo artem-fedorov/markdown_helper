@@ -1,3 +1,8 @@
+Prev: [Include Code Block
+](include_files/include_code_block/use_case.md
+Next: [Include Page TOC
+](include_files/include_page_toc/use_case.md)
+
 ### Include Highlighted Code
 
 Use file inclusion to include text as highlighted code.
@@ -108,3 +113,8 @@ end
 
 
 ---
+
+Prev: [Include Code Block
+](include_files/include_code_block/use_case.md
+Next: [Include Page TOC
+](include_files/include_page_toc/use_case.md)

@@ -1,3 +1,8 @@
+Prev: [Include Generated Text
+](include_files/include_generated_text/use_case.md
+Next: [Diagnose Missing Includee
+](include_files/diagnose_missing_includee/use_case.md)
+
 ### Include with Added Comments
 
 By default (that is, without option ```--pristine```) file inclusion adds comments that:
@@ -54,3 +59,8 @@ Text to be included.
 ```
 
 The file path for the included file is relative to the .git directory.
+
+Prev: [Include Generated Text
+](include_files/include_generated_text/use_case.md
+Next: [Diagnose Missing Includee
+](include_files/diagnose_missing_includee/use_case.md)

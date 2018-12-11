@@ -1,3 +1,4 @@
+<!-- >>>>>> BEGIN GENERATED FILE (include): SOURCE use_cases.md -->
 # Use Cases
 
 ## Include Files
@@ -14,3 +15,4 @@
 * [Include with Added Comments](include_files/include_with_added_comments/use_case.md#include-with-added-comments)
 * [Diagnose Missing Includee](include_files/diagnose_missing_includee/use_case.md#diagnose-missing-includee)
 * [Diagnose Circular Includes](include_files/diagnose_circular_includes/use_case.md#diagnose-circular-includes)
+<!-- <<<<<< END GENERATED FILE (include): SOURCE use_cases.md -->

@@ -1,3 +1,8 @@
+Prev: [Include Highlighted Code
+](include_files/include_highlighted_code/use_case.md
+Next: [Include Text As Comment
+](include_files/include_text_as_comment/use_case.md)
+
 ### Include Page TOC
 
 Use file inclusion to include a page table of contents (page TOC).
@@ -210,3 +215,8 @@ And here's the finished markdown, as rendered on this page:
 <!-- <<<<<< END GENERATED FILE (include): SOURCE includer.md -->
 
 ---
+
+Prev: [Include Highlighted Code
+](include_files/include_highlighted_code/use_case.md
+Next: [Include Text As Comment
+](include_files/include_text_as_comment/use_case.md)
