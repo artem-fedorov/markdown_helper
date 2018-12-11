@@ -1,13 +1,12 @@
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
+  </tr>
 </table>
 
 ### Include Page TOC
@@ -223,14 +222,13 @@ And here's the finished markdown, as rendered on this page:
 
 ---
 
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
+  </tr>
 </table>

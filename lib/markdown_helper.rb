@@ -249,36 +249,50 @@ EOT
           page_info.next_path = next_info.path
           page_info.next_title = next_info.title
         end
-        prev_row, next_row = '', ''
         path = page_info.path
         if page_info.prev_path
           prev_path = page_info.prev_path
           prev_relative_path = prev_path.sub(common_path(path, prev_path), '..')
-          prev_link = "[#{page_info.prev_title}](#{prev_relative_path})"
-          prev_row = <<EOT
-            <tr>
-              <th>Prev</th>
-              <td><a href="#{prev_relative_path}">#{page_info.prev_title}</a></td>
-            </tr>
-
-EOT
         end
         if page_info.next_path
           next_path = page_info.next_path
           next_relative_path = next_path.sub(common_path(path, next_path), '..')
-          next_link = "[#{page_info.next_title}](#{next_relative_path})"
-          next_row = <<EOT
-            <tr>
-              <th>Next</th>
-              <td><a href="#{next_relative_path}">#{page_info.next_title}</a></td>
-            </tr>
-
-EOT
         end
-        nav_table = <<EOT
-<table>#{prev_row}#{next_row}</table>
+        # Github flavored markdown is *very* picky about whitespace in a table,
+        # so form carefully for each case.
+        nav_table = case
+                    when page_info.next_path.nil?
+                      <<EOT
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="#{prev_relative_path}">#{page_info.prev_title}</a></td>
+  </tr>
+</table>
 EOT
-
+                    when page_info.prev_path.nil?
+                      <<EOT
+<table>
+  <tr>
+    <th>Next</th>
+    <td><a href="#{next_relative_path}">#{page_info.next_title}</a></td>
+  </tr>
+</table>
+EOT
+                    else
+                      <<EOT
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="#{prev_relative_path}">#{page_info.prev_title}</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="#{next_relative_path}">#{page_info.next_title}</a></td>
+  </tr>
+</table>
+EOT
+                    end
         lines = File.readlines(page_info.path)
         lines.unshift(nav_table, "\n")
         lines.push("\n", nav_table)

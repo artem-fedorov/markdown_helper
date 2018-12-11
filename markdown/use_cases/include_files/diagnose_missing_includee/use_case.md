@@ -1,13 +1,12 @@
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../diagnose_circular_includes/use_case.md">Diagnose Circular Includes</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../diagnose_circular_includes/use_case.md">Diagnose Circular Includes</a></td>
+  </tr>
 </table>
 
 ### Diagnose Missing Includee
@@ -111,14 +110,13 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/markdown_helper-2.1.0/bin/_include: Could
         File path: markdown/use_cases/include_files/diagnose_missing_includee/includer_0.md
 ```
 
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../diagnose_circular_includes/use_case.md">Diagnose Circular Includes</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../diagnose_circular_includes/use_case.md">Diagnose Circular Includes</a></td>
+  </tr>
 </table>

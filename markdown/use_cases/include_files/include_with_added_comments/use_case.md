@@ -1,13 +1,12 @@
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../diagnose_missing_includee/use_case.md">Diagnose Missing Includee</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../diagnose_missing_includee/use_case.md">Diagnose Missing Includee</a></td>
+  </tr>
 </table>
 
 ### Include with Added Comments
@@ -67,14 +66,13 @@ Text to be included.
 
 The file path for the included file is relative to the .git directory.
 
-<table>            <tr>
-              <th>Prev</th>
-              <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
-            </tr>
-
-            <tr>
-              <th>Next</th>
-              <td><a href="../diagnose_missing_includee/use_case.md">Diagnose Missing Includee</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Prev</th>
+    <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
+  </tr>
+  <tr>
+    <th>Next</th>
+    <td><a href="../diagnose_missing_includee/use_case.md">Diagnose Missing Includee</a></td>
+  </tr>
 </table>

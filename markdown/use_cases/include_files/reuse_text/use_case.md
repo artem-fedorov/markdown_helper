@@ -1,8 +1,8 @@
-<table>            <tr>
-              <th>Next</th>
-              <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Next</th>
+    <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
+  </tr>
 </table>
 
 ### Reuse Text
@@ -75,9 +75,9 @@ Text in includee file.
 
 ```
 
-<table>            <tr>
-              <th>Next</th>
-              <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
-            </tr>
-
+<table>
+  <tr>
+    <th>Next</th>
+    <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
+  </tr>
 </table>
