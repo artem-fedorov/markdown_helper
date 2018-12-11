@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_code_block/use_case.md">Include Code Block</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Include Markdown
 
@@ -118,8 +117,7 @@ This is an unordered list:
 
 ---
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../nest_inclusions/use_case.md">Nest Inclusions</a></td>
             </tr>
@@ -129,4 +127,4 @@ This is an unordered list:
               <td><a href="../include_code_block/use_case.md">Include Code Block</a></td>
             </tr>
 
-        </table>
+</table>

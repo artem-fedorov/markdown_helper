@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_page_toc/use_case.md">Include Page TOC</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_text_as_pre/use_case.md">Include Text As Pre</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Include Text As Comment
 
@@ -99,8 +98,7 @@ end
 ```
 
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_page_toc/use_case.md">Include Page TOC</a></td>
             </tr>
@@ -110,4 +108,4 @@ end
               <td><a href="../include_text_as_pre/use_case.md">Include Text As Pre</a></td>
             </tr>
 
-        </table>
+</table>

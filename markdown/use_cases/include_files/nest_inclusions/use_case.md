@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../reuse_text/use_case.md">Reuse Text</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Nest Inclusions
 
@@ -86,8 +85,7 @@ Text for inclusion, and a nested inclusion.
 Text for nested inclusion.
 ```
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../reuse_text/use_case.md">Reuse Text</a></td>
             </tr>
@@ -97,4 +95,4 @@ Text for nested inclusion.
               <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
             </tr>
 
-        </table>
+</table>

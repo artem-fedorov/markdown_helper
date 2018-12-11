@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Include Code Block
 
@@ -120,8 +119,7 @@ end
 
 ---
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
             </tr>
@@ -131,4 +129,4 @@ end
               <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
             </tr>
 
-        </table>
+</table>

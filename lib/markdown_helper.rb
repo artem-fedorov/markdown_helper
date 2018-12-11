@@ -260,6 +260,7 @@ EOT
               <th>Prev</th>
               <td><a href="#{prev_relative_path}">#{page_info.prev_title}</a></td>
             </tr>
+
 EOT
         end
         if page_info.next_path
@@ -271,13 +272,11 @@ EOT
               <th>Next</th>
               <td><a href="#{next_relative_path}">#{page_info.next_title}</a></td>
             </tr>
+
 EOT
         end
         nav_table = <<EOT
-        <table>
-#{prev_row}
-#{next_row}
-        </table>
+<table>#{prev_row}#{next_row}</table>
 EOT
 
         lines = File.readlines(page_info.path)

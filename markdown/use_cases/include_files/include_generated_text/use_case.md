@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_text_as_pre/use_case.md">Include Text As Pre</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Include Generated Text
 
@@ -30,8 +29,7 @@ An especially handy use of file inclusion is seen in including example code and 
 
 Running the example each time the markdown is built keeps the example code "green," because it confirms that the code still works.
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_text_as_pre/use_case.md">Include Text As Pre</a></td>
             </tr>
@@ -41,4 +39,4 @@ Running the example each time the markdown is built keeps the example code "gree
               <td><a href="../include_with_added_comments/use_case.md">Include with Added Comments</a></td>
             </tr>
 
-        </table>
+</table>

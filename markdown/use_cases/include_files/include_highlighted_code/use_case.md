@@ -1,5 +1,4 @@
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_code_block/use_case.md">Include Code Block</a></td>
             </tr>
@@ -9,7 +8,7 @@
               <td><a href="../include_page_toc/use_case.md">Include Page TOC</a></td>
             </tr>
 
-        </table>
+</table>
 
 ### Include Highlighted Code
 
@@ -122,8 +121,7 @@ end
 
 ---
 
-        <table>
-            <tr>
+<table>            <tr>
               <th>Prev</th>
               <td><a href="../include_code_block/use_case.md">Include Code Block</a></td>
             </tr>
@@ -133,4 +131,4 @@ end
               <td><a href="../include_page_toc/use_case.md">Include Page TOC</a></td>
             </tr>
 
-        </table>
+</table>
