@@ -1,5 +1,15 @@
-Prev: [Include Markdown](../include_markdown/use_case.md)
-Next: [Include Highlighted Code](../include_highlighted_code/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
+            </tr>
+
+        </table>
 
 ### Include Code Block
 
@@ -110,5 +120,15 @@ end
 
 ---
 
-Prev: [Include Markdown](../include_markdown/use_case.md)
-Next: [Include Highlighted Code](../include_highlighted_code/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_highlighted_code/use_case.md">Include Highlighted Code</a></td>
+            </tr>
+
+        </table>

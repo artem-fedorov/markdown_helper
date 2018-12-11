@@ -1,5 +1,15 @@
-Prev: [Include Text As Comment](../include_text_as_comment/use_case.md)
-Next: [Include Generated Text](../include_generated_text/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
+            </tr>
+
+        </table>
 
 ### Include Text As Pre
 
@@ -78,5 +88,15 @@ This file uses triple-backtick to format a ```symbol```, which means that it can
 ```
 
 
-Prev: [Include Text As Comment](../include_text_as_comment/use_case.md)
-Next: [Include Generated Text](../include_generated_text/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../include_text_as_comment/use_case.md">Include Text As Comment</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_generated_text/use_case.md">Include Generated Text</a></td>
+            </tr>
+
+        </table>

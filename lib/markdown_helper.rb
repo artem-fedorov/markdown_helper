@@ -249,25 +249,40 @@ EOT
           page_info.next_path = next_info.path
           page_info.next_title = next_info.title
         end
-        nav_lines = []
+        prev_row, next_row = '', ''
         path = page_info.path
         if page_info.prev_path
           prev_path = page_info.prev_path
           prev_relative_path = prev_path.sub(common_path(path, prev_path), '..')
           prev_link = "[#{page_info.prev_title}](#{prev_relative_path})"
-          prev_line = "Prev: #{prev_link}\n"
-          nav_lines.push(prev_line)
+          prev_row = <<EOT
+            <tr>
+              <th>Prev</th>
+              <td><a href="#{prev_relative_path}">#{page_info.prev_title}</a></td>
+            </tr>
+EOT
         end
         if page_info.next_path
           next_path = page_info.next_path
           next_relative_path = next_path.sub(common_path(path, next_path), '..')
           next_link = "[#{page_info.next_title}](#{next_relative_path})"
-          next_line = "Next: #{next_link}\n"
-          nav_lines.push(next_line)
+          next_row = <<EOT
+            <tr>
+              <th>Next</th>
+              <td><a href="#{next_relative_path}">#{page_info.next_title}</a></td>
+            </tr>
+EOT
         end
+        nav_table = <<EOT
+        <table>
+#{prev_row}
+#{next_row}
+        </table>
+EOT
+
         lines = File.readlines(page_info.path)
-        lines.unshift(*nav_lines, "\n")
-        lines.push("\n", nav_lines)
+        lines.unshift(nav_table, "\n")
+        lines.push("\n", nav_table)
         File.write(page_info.path, lines.join)
       end
     end

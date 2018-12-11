@@ -1,5 +1,15 @@
-Prev: [Reuse Text](../reuse_text/use_case.md)
-Next: [Include Markdown](../include_markdown/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../reuse_text/use_case.md">Reuse Text</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
+            </tr>
+
+        </table>
 
 ### Nest Inclusions
 
@@ -76,5 +86,15 @@ Text for inclusion, and a nested inclusion.
 Text for nested inclusion.
 ```
 
-Prev: [Reuse Text](../reuse_text/use_case.md)
-Next: [Include Markdown](../include_markdown/use_case.md)
+        <table>
+            <tr>
+              <th>Prev</th>
+              <td><a href="../reuse_text/use_case.md">Reuse Text</a></td>
+            </tr>
+
+            <tr>
+              <th>Next</th>
+              <td><a href="../include_markdown/use_case.md">Include Markdown</a></td>
+            </tr>
+
+        </table>
