@@ -14,7 +14,7 @@ namespace :build do
       use_case_file.puts(<<EOT
 # Use Cases
 
-@[:page_nav]()
+@[:page_nav](./__page_nav__)
 EOT
       )
       dir_path = File.dirname(__FILE__)

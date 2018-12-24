@@ -3,6 +3,10 @@ require 'rake/testtask'
 
 require_relative 'lib/markdown_helper'
 
+Dir.glob('**/*.rake').each do |r|
+  import r
+end
+
 Rake::TestTask.new(:test) do |t|
   t.libs << 'test'
   t.libs << 'lib'
